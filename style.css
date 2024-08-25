@@ -1,0 +1,285 @@
+#id1{
+    color: blue;
+}
+
+
+.nav-section{
+
+
+
+    .nav-conten{
+        display: flex;
+        justify-content: space-between;
+        
+
+
+
+
+        .nav-logo{
+            margin-top: 15px ;
+            margin-left:50px  ;
+    
+        }
+
+
+
+     .nav-login{
+
+        display: flex;
+        align-items:center;
+        gap:10px ;
+        margin-top: 1px ;
+        margin-right: 50px;
+        
+        
+            
+            & li{
+                list-style: none;
+                
+                & button{
+                    padding: 8px 12px;
+                    cursor: pointer;
+                    background-color: ;
+                }
+
+                .button1{
+                    background-color: black;
+                    color: aliceblue;
+                    border-radius: 20px;
+                    border: none;
+                }
+
+                .button{
+                    border-radius: 20px ;
+                    background-color: background: #F1F1F1;
+                    border: none;
+                }
+    
+        } 
+        & img{
+            width: 26px;
+            height: 26px ;
+        }
+    }
+     }
+        
+    
+     .nav-bar{
+
+        & li{
+            list-style: none;
+
+            & a{
+                color: rgb(63, 40, 9);
+                text-decoration: none;
+                
+            }
+            
+        }
+
+        & ul{
+            display: flex;
+            gap: 30px ;
+
+        }
+     }
+    }
+        /* End End End  */
+
+
+        .hedar{
+        
+
+             /* display: grid;
+             grid-template-columns: repeat(2, minimax(0, 1fr)); */
+             position: relative;
+
+             
+                & img{
+                    width: 100%;
+                    height: 760px;
+                    position: absolute;
+                    z-index: -1;
+                    
+                }
+            }
+            .hedar-content{
+                margin-left: 400px;
+        
+
+                .Currency{
+            
+                }
+
+                .dev10{
+                 
+                }
+                
+                
+        
+            }
+
+            .how{
+                display: flex;
+                gap: 50px;
+                margin-top: 50px ;
+                margin-left: 400px;
+
+                & input{ padding: 2px 100px;}
+            }
+            
+            
+        /* End End End End End  */
+
+        .Binance{
+            width: 100%;
+            height: 370px ;
+            background-color:#FDE24F;
+            margin-top: 15%;
+
+            & h1{
+                text-align: center;
+                
+            }
+
+            .Binance-content{
+                
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+                /* justify-content: space-around; */
+                
+                & div:nth-child(1){
+                    grid-column: 1/7;
+                }
+                
+                
+            }
+        }
+
+        .hedar-content{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 50px ;
+            align-items: center;
+
+            & div:nth-child(1){
+                grid-column: 1/10;
+                text-align: center;
+                
+            }
+            & div:nth-child(6){
+                grid-column: 6/1;
+            }
+        }
+        /* End End End End End  */
+
+        /* 3rd section St */
+
+         .section-3rd{
+            wwdth: 100%;
+            height: 502px ;
+
+            .op1{
+                margin-left: 100px;
+                padding-top: 50px ;
+                color: #0b0763;
+            }
+            
+
+            .section-content{
+                display: flex;
+                align-items: center;
+                padding-left: 200px;
+                gap: 50px ;
+                text-align: center;
+                padding-top: 40px ;
+                color: #0b0763;
+
+
+
+                & div{
+                    & h4{
+                        color: #0b0763;
+                        text-decoration: underline red;
+                    }
+                }
+                
+            }
+            & h3{
+                text-align: center;
+                & button{
+                    border-radius: 16px 28px ;
+                    color: #0b0763;
+                    padding: 10px;
+                    background-color: white;
+                }
+           }
+        }
+        /* 3rd Section End  */
+
+        /* 4th section st */
+        .section-4th{
+            width: 100%;
+            height: 500px;
+             
+            .section-4thcontent{
+                display: flex;
+                margin-left: 200px;
+
+                & h1{
+                    color: #0b0763;
+                    margin-left: 210px;
+                }
+
+                & button{
+                    color: #0b0763;
+                    margin-left: 370px;
+                    border-radius: 28px ;
+                    margin-top: 10px ;
+                    padding: 10px;
+                    background-color:black;
+                    color: white;
+                    border: none;
+                }
+                
+                
+                
+            
+        .image-1{
+                display: flex;
+                align-items: center;
+                width: fit-content;
+                /* margin-left: 100px; */
+                
+                
+
+                & img{
+                    width: 74px;
+                    height: 74px ;
+                    margin-left: 200px ;
+                    padding: 10px;
+                    
+                    
+                    }
+
+                    & p{
+                        color: #0b0763;
+                        text-align: center;
+                        padding: 10px ;
+                        display: inline;
+                        
+                    }
+                    
+                }
+
+               
+            }
+            
+           
+        }
+
+        
+
+
+
+        
